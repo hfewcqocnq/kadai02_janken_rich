@@ -36,7 +36,7 @@ $("#checkButton").on('click', function(){
 
   //取得したお題を書き出す
   document.getElementById("button_output").innerText = getname + 'の方がよいと思います';
-
+ 
 	// // var namelistIndex = $('getname').index(this);
 
 	// var namelistIndex = arr.find(function(getname) {
