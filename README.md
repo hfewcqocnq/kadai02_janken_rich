@@ -8,7 +8,7 @@ kadai02_janken_rich
 
 ## ③DEMO
 
-- https://hfewcqocnq.github.io/kadai01_janken_rich/
+- https://hfewcqocnq.github.io/kadai02_janken_rich/
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
