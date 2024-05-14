@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <title>resultsystem</title>
 </head>
 <body>
+  <h1>迷っていることに回答を出すシステム</h1>
   <p>
   <input type="text" size="40" id="nameText">
   </p>
@@ -14,19 +16,21 @@
   
   <p>
     <input type="text" id="text_name">
-    <input type="button" value="追加" onclick="addName()">
-    </p>
+    <input type="button" value="追加" onclick="addName()" id="tuika">
+  </p>
 
   <p>▲選択肢を入力してください。</p>
   <p>例1_ごはん</p>
   <p>例2_うどん</p>
   <p id="output"></p>
   <p>
-  <input type="button" value="Check" id="checkButton">
+  <input type="button" value="結果を見てみる" id="checkButton">
   </p>
 
   <p id="msg"></p>
   <p id="button_output"></p>
+
+  <!-- <input type="reset" value="リセットする" id="reset"> -->
 
   <!-- jqueryの読み込み（記述）が絶対に先 -->
   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js"></script>

@@ -1,0 +1,65 @@
+input {
+  border-radius: 0px;
+  padding: 5px 10px;
+}
+
+#nameText {
+  font-size: 20px;
+}
+
+#text_name {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+#tuika {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #000000;
+  color: #fff;
+  padding: 3px 15px;
+}
+#checkButton {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#tuika:hover,
+#checkButton:hover {
+  cursor: pointer;
+  background-color: royalblue;
+}
+
+#msg,
+#button_output {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#checkButton {
+  display: block;
+  width: 200px;
+  padding: 10px 0;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 200% auto;
+  background-image: linear-gradient(
+    to right,
+    royalblue 0%,
+    royalblue 50%,
+    #000000 50%,
+    #000000 100%
+  );
+  box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
+  transition: background-position ease 0.4s;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#checkButton:hover {
+  background-position: 0 0;
+}
